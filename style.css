@@ -13,7 +13,6 @@ nav {
 nav a {
     color: white;
     margin: 10px;
-    text-decoration: none;
 }
 
 nav a:hover {
@@ -33,9 +32,16 @@ section {
     margin: 10px 0;
 }
 
+.project:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    background: lightgray;
+}
+
 .project img {
     display: block;
     margin-bottom: 10px;
+    border-radius: 0%;
 }
 
 footer {
